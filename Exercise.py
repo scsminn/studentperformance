@@ -11,3 +11,5 @@ dataset = pd.read_csv('grads.csv')
 from sklearn.preprocessing import Imputer
 imputer = Imputer(missing_values = 'na', strategy = 'mean', axis = 0)
 imputer.fit[:, 3].values
+
+#Add something
